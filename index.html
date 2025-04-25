@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+
+{% capture my_include %}
+<p class="lead">Technical security leadership  and expertise through the innovative REFLEX Framework. Technical security leader with expertise spanning the entire technology stack, offering consultancy, training workshops, and conference presentations.</p>
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <a type="button" href="#steve" class="btn btn-primary btn-lg px-4 me-md-2">Learn more about Steve</a>
+    <a type="button" href="/reflex.html" class="btn  btn-primary btn-lg px-4">Explore REFLEX</a>
+</div>
+{% endcapture %}
+
+{% include hero_image.html title="Steve Poole - Independent Consultant" image="background.png" content=my_include  %}
+
+<hr>
+
+    {% include hero_timeline.html %}
+
+    {% include hero_expertise.html %}
+<hr>
+
+{% include hero_contact.html %}

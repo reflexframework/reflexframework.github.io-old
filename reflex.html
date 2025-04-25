@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% capture my_include %}
+<p class="lead">Transform your development team with the REFLEX methodology - an evolutionary approach to embedding security into your software engineering DNA. Created by Java Champion Steve Poole, REFLEX helps teams stop reacting and start defending.</p>
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+    <a type="button" href="/reflex.pdf" class="btn btn-primary btn-lg px-4 me-md-2">White paper</a>
+    <a type="button" href="#explore" class="btn  btn-primary btn-lg px-4">Explore</a>
+
+</div>
+
+{% endcapture %}
+
+{% include mirror_hero_image.html title="REFLEX Framework: Making Software Security Second Nature" image="background.png" content=my_include  %}
+
+
+<hr>
+{% include reflex_intro.html %}
+
+{% include reflex_problem.html %}

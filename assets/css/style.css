@@ -1,0 +1,86 @@
+
+
+body {
+    background: #f9fdfc;
+    color: #334155;
+}
+
+
+
+.timeline {
+    position: relative;
+    margin-left: 2rem;
+    border-left: 2px solid #dee2e6;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+}
+.timeline-icon {
+    position: absolute;
+    left: -1.3rem;
+    top: 0;
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: #0d6efd;
+}
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-icon {
+    font-size: 3rem;
+    color: #40675e;
+    margin-bottom: 10px;
+}
+.contact-title {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #40675e;
+}
+
+.pyramid {
+    text-align: center;
+}
+.pyramid-layer {
+    background: #d4f2ed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #2a4d4a;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin: 15px auto;
+    transition: transform 0.3s;
+}
+.pyramid-layer i {
+    font-size: 1.8rem;
+    color: #2a7a73;
+    margin-bottom: 5px;
+}
+.pyramid-layer:hover {
+    transform: scale(1.05);
+}
+
+/* Different sizes for hierarchy */
+.pyramid-layer:nth-child(1) { width: 100px; height: 100px; }
+.pyramid-layer:nth-child(2) { width: 130px; height: 130px; }
+.pyramid-layer:nth-child(3) { width: 160px; height: 160px; }
+.pyramid-layer:nth-child(4) { width: 190px; height: 190px; }
